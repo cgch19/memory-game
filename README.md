@@ -22,4 +22,4 @@ Add logic to check for card matches when two cards are flipped.
  - Create a level-based system where players progress through increasingly difficult levels, each with a unique set of challenges.
  - Difficulty Levels: Include different difficulty levels to cater to players of varying skill levels. Easy, medium, and hard modes can provide a more rewarding experience for players looking for a challenge.
 
-![wireframe](wireframe.png)
+![wireframe](memory-wireframe.png)
