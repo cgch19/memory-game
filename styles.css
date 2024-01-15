@@ -1,4 +1,20 @@
 body {
-    background-color: darkcyan;
-    
+    background-color: rgb(44, 0, 139);
+
+}
+#board {
+    display: grid;
+    grid-template-areas: 
+    'one two three four'
+    'five six seven eight'
+    'nine ten eleven twelve'
+    'thirteen fourteen fifteen sixteen';
+    grid-template-columns: repeat(4,auto);
+}
+
+.box {
+    border: 10px solid rgb(46, 196, 23);
+    position: relative;
+    height: 120px;
+    width: 120px;
 }
