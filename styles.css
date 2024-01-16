@@ -1,20 +1,99 @@
 body {
-    background-color: rgb(44, 0, 139);
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: blue;
 }
-#board {
-    display: grid;
-    grid-template-areas: 
-    'one two three four'
-    'five six seven eight'
-    'nine ten eleven twelve'
-    'thirteen fourteen fifteen sixteen';
-    grid-template-columns: repeat(4,auto);
+.surrounding {
+    padding: 25px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0 10px 30px black;
 }
-
-.box {
-    border: 10px solid rgb(46, 196, 23);
+.cards, .card, .face {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.card .cards {
+    user-select: none;
     position: relative;
-    height: 120px;
-    width: 120px;
+    cursor: pointer;
+    list-style: none;
+    height: calc(100% / 4 - 10px);
+    width: calc(100% / 4 - 10px);
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+.cards {
+    height: 400px;
+    width: 400px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card.shake {
+    animation: shake 0.35s ease-in-out;
+}
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(-13px);
+    }
+    40%{
+        transform: translateX(13px);
+    }
+    60% {
+        transform: translateX(-8px);
+    }
+    80% {
+        transform: translateX(8px);
+    }
+}
+.card.flip .front-view {
+    transform: rotateY(180deg);
+}
+.card.flip .back-view {
+    transform: rotateY(0);
+}
+.card .front-view img {
+    width: 19px;
+}
+.card .back-view img {
+    max-width: 45px;
+}
+.card .back-view {
+    transform: rotateY(-180deg);
+}
+@media screen and (max-width: 530px) {
+    .cards {
+        height: 300px;
+        width: 300px;
+    }
+    .card .front-view img {
+        width: 15px;
+    }
+    .card .back-view img {
+        max-width: 35px;
+    }
+}
+@media screen and (max-width: 700px){
+    .cards {
+        height: 350px;
+        width: 350px;
+    }
+    .card .front-view img {
+        width: 17px;
+    }
+    .card .back-view img {
+        max-width: 40px;
+    }
 }
