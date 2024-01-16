@@ -23,5 +23,38 @@
 .heading {
     text-align: center;
     font-size: 2rem;
-    
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.card img {
+    width: 80%;
+    opacity: 0;
+    transition: 0.3s all ease;
+    max-height: 90px;
+}
+.card .clicked {
+    background-color: aqua;
+}
+.card:hover {
+    transform: scale(1.03);
+}
+.card .checked{
+    background-color: blue;
+}
+.card .clicked img,
+.card .checked img {
+    opacity: 1;
+}
+
+.card.shake {
+    background-color: red;
+    animation: shake 0.5s;
+}
+body {
+    background-color: black;
+}
+@keyframes shake {
+    0
 }
