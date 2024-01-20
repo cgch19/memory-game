@@ -34,17 +34,17 @@
     transition: 0.3s all ease;
     max-height: 90px;
 }
-.card .clicked {
+.card.clicked {
     background-color: green;
 }
 .card:hover {
     transform: scale(1.03);
 }
-.card .checked{
-    background-color: blue;
+.card.checked{
+    background-color: black;
 }
-.card .clicked img,
-.card .checked img {
+.card.clicked img,
+.card.checked img {
     opacity: 1;
 }
 

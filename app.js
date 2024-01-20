@@ -43,3 +43,42 @@ cards.forEach((card) => {
     }
   });
 });
+
+function countDown() {
+    let seconds = 100;
+    const countdown = setInterval(function() {
+        document.getElementById('remaining-time').innerHTML = seconds;
+        seconds--;
+  
+        if (seconds < 0) {
+            clearInterval(countdown);
+            document.getElementById('countdown').innerHTML = "Countdown stopped";
+        }
+    }, 100000); 
+  }
+  
+  countDown(); 
+  
+  
+  const startButton = document.getElementById('start-button');
+  const timerElement = document.getElementById('remaining-time');
+  
+  let remainingTime = 100; 
+  let timerInterval; 
+  
+  function startTimer() {
+      timerElement.textContent = remainingTime;
+      timerInterval = setInterval(function() {
+          remainingTime--;
+          timerElement.textContent = remainingTime;
+  
+          if (remainingTime === 0) {
+              clearInterval(timerInterval);
+            }
+      }, 1000); 
+  }
+
+  startButton.addEventListener('click', function() {
+    startButton.disabled = true;
+    startTimer();
+});
