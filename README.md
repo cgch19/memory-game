@@ -17,7 +17,7 @@ Add logic to check for card matches when two cards are flipped.
 
 ---
 ### Built with
--- Use JavaScript, index,html, and style.css for my game
+--  JavaScript, index,html, and style.css 
 
 ---
 #### Stretch Goals
