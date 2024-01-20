@@ -5,7 +5,7 @@ Memory Matching Planets is a memory game . Players will be able to match the dif
 
 
 ---
-### MVP Goals
+## MVP Goals
 
 - Create a 4x4 grid layout for the memory matching game. 
 - Implement the core gameplay mechanics, allowing players to flip cards by tapping on them. 
@@ -16,11 +16,11 @@ Add logic to check for card matches when two cards are flipped.
 - Create a basic scoring system that tracks the time taken to complete the game.
 
 ---
-### Built with
+## Built with
 --  JavaScript, index,html, and style.css 
 
 ---
-#### Stretch Goals
+## Stretch Goals
  -Timer Challenge Mode: Have a timer where players need to match cards within a set time limit, adding an element of urgency and excitement.
  -Simple Animations: Incorporate subtle animations for card flips and matches to make the game more visually appealing.
 
@@ -35,7 +35,7 @@ https://cgch19.github.io/memory-game/
 
 
  ---
-#### Next Steps
+## Next Steps
 - Create Levels that would challenge the player like a higher grid count.
 - Trying to add different powers like if it gets harder you can unlock a hint.
 - Make a different UI for each level
