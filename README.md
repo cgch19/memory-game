@@ -1,10 +1,5 @@
 #  Planets of Memory Game
  ---
-## Getting Started
-Down here is the link to my Project1 Game and all you have to do is click the link!
-https://cgch19.github.io/memory-game/
-
- ---
 ## Memory Planets
 Memory Matching Planets is a memory game . Players will be able to match the different planets in the solar system.This game will be simplistic which the wire frames will be intentionally kept simple, using basic shapes, lines, and placeholders to represent elements like buttons, text fields, images, and navigation menus.
 
@@ -25,6 +20,11 @@ Add logic to check for card matches when two cards are flipped.
 #### Stretch Goals
  -Timer Challenge Mode: Have a timer where players need to match cards within a set time limit, adding an element of urgency and excitement.
  -Simple Animations: Incorporate subtle animations for card flips and matches to make the game more visually appealing.
+
+---
+## Getting Started
+Down here is the link to my Project1 Game and all you have to do is click the link!
+https://cgch19.github.io/memory-game/
 
  ---
 #### Next Steps
