@@ -82,3 +82,22 @@ function countDown() {
     startButton.disabled = true;
     startTimer();
 });
+
+function checkWin() {
+    const allCards = document.querySelectorAll(".card");
+    const matchedCards = document.querySelectorAll(".card.checked")
+
+    if (allCards.length === matchedCards.length) {
+        showWinPopup();
+    }
+}
+
+function showWinPopup() {
+    const winPopup = document.getElementById("win-popup");
+    winPopup.style.display = "flex";
+}
+
+function showWinPopup() {
+    const winPopup = document.getElementById("win-popup")
+    winPopup.style.display = 
+}
