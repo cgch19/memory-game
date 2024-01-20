@@ -24,3 +24,7 @@ Add logic to check for card matches when two cards are flipped.
 ![wireframe](memory-wireframe.png)
 
 ![wireframe](game.png)
+
+![wireframe](win.png)
+
+![wireframe](lose.png)
