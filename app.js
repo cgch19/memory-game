@@ -85,19 +85,29 @@ function countDown() {
 
 function checkWin() {
     const allCards = document.querySelectorAll(".card");
-    const matchedCards = document.querySelectorAll(".card.checked")
+    const clickedCards = document.querySelectorAll(".card.checked")
 
-    if (allCards.length === matchedCards.length) {
+    if (allCards.length === clickedCards.length) {
         showWinPopup();
     }
 }
-
+console.log(checkWin)
 function showWinPopup() {
     const winPopup = document.getElementById("win-popup");
     winPopup.style.display = "flex";
 }
 
-function showWinPopup() {
-    const winPopup = document.getElementById("win-popup")
-    winPopup.style.display = 
+
+function playAgain() {
+    document.getElementById("win-popup").style.display = "none";
 }
+
+document.getElementById("play-again-button").addEventListener("click", playAgain)
+
+const box = document.querySelectorAll(".card")
+cards.forEach((card) => {
+    card.addEventListener("click", () => {
+        card.classList.add("clicked");
+        checkWin();
+    })
+})
