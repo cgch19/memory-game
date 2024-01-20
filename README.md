@@ -14,6 +14,8 @@ Add logic to check for card matches when two cards are flipped.
 - Design and implement basic UI elements, including a  game board, and a victory screen.
 - Include a simple button for start game. 
 - Create a basic scoring system that tracks the time taken to complete the game.
+- Add winning pop up and losing pop up
+- Adding a timer for 100 seconds
 
 ---
 ## Built with
