@@ -78,6 +78,10 @@ function countDown() {
       }, 1000); 
   }
 
+  function stopTimer() {
+    clearInterval(timerInterval);
+  }
+
   startButton.addEventListener('click', function() {
     startButton.disabled = true;
     startTimer();
@@ -88,6 +92,7 @@ function checkWin() {
     const clickedCards = document.querySelectorAll(".card.checked")
 
     if (allCards.length === clickedCards.length) {
+        stopTimer();
         showWinPopup();
     }
 }
@@ -100,10 +105,24 @@ function showWinPopup() {
 
 function playAgain() {
     document.getElementById("win-popup").style.display = "none";
+    resetGame();
 }
 
 document.getElementById("play-again-button").addEventListener("click", playAgain)
 
+function resetGame () {
+    counter = 0;
+    firstSelection = "";
+    secondSelection = "";
+    remainingTime = 100;
+    clearInterval(timerInterval);
+
+    cards.forEach((card) => {
+        card.classList.remove("clicked", "checked", "shake");
+    })
+
+    startButton.disabled = false;
+}
 const box = document.querySelectorAll(".card")
 cards.forEach((card) => {
     card.addEventListener("click", () => {
@@ -111,3 +130,4 @@ cards.forEach((card) => {
         checkWin();
     })
 })
+
