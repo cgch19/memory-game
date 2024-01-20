@@ -1,4 +1,4 @@
-#  Matching Planets
+#  Planets of Memory Game
  ---
 ## Getting Started
 Down here is the link to my Project1 Game and all you have to do is click the link!
