@@ -11,15 +11,14 @@ Memory Matching Planets is a memory game . Players will be able to match the dif
 - Implement the core gameplay mechanics, allowing players to flip cards by tapping on them. 
 Add logic to check for card matches when two cards are flipped. 
 - Implement a win condition that checks if all card pairs have been matched. Display a victory message when the game is won. 
-- Design and implement basic UI elements, including a start screen, game board, and a victory screen.
+- Design and implement basic UI elements, including a  game board, and a victory screen.
 - Include a simple button for start game. 
-- Create a basic scoring system that tracks the number of moves or time taken to complete the game.
+- Create a basic scoring system that tracks the time taken to complete the game.
 
 
 ---
 #### Stretch Goals
- - Ensure the game can be played seamlessly across various platforms, including mobile devices and web browsers. 
- - Create a level-based system where players progress through increasingly difficult levels, each with a unique set of challenges.
- - Difficulty Levels: Include different difficulty levels to cater to players of varying skill levels. Easy, medium, and hard modes can provide a more rewarding experience for players looking for a challenge.
+ -Timer Challenge Mode: Have a timer where players need to match cards within a set time limit, adding an element of urgency and excitement.
+ -Simple Animations: Incorporate subtle animations for card flips and matches to make the game more visually appealing.
 
 ![wireframe](memory-wireframe.png)
