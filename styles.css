@@ -12,8 +12,8 @@
 .card {
     height: 110px;
     width: 100px;
-    background-color: blueviolet;
-    border-radius: 10px;
+    background-color: pink;
+    border-radius: 100px;
     display: grid;
     place-items: center;
     cursor: pointer;
@@ -22,7 +22,7 @@
 
 .heading {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 500;
     font-family: 'Courier New', Courier, monospace;
     color: white;
@@ -35,7 +35,7 @@
     max-height: 90px;
 }
 .card .clicked {
-    background-color: aqua;
+    background-color: green;
 }
 .card:hover {
     transform: scale(1.03);
@@ -62,9 +62,14 @@ body {
     font-size: 18px;
     margin-bottom: 10px;
     color: white;
+    text-align: center;
 }
 
 #remaining-time {
     font-weight: bold;
     color: white;
+}
+.start-button {
+    margin-top: 20px;
+    text-align: center;
 }
