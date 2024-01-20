@@ -31,6 +31,7 @@ Add logic to check for card matches when two cards are flipped.
 - Create Levels that would challenge the player like a higher grid count.
 - Trying to add different powers like if it gets harder you can unlock a hint.
 - Make a different UI for each level
+- Add different animations
 
 ![wireframe](memory-wireframe.png)
 
