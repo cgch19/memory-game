@@ -93,3 +93,24 @@ body {
 #win-popup h2 {
     color: green;
 }
+
+#lost-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+#lose-popup .popup-content {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#lose-popup h2 {
+    color: purple;
+}

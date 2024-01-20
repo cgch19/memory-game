@@ -74,6 +74,7 @@ function countDown() {
   
           if (remainingTime === 0) {
               clearInterval(timerInterval);
+              timerTimeout();
             }
       }, 1000); 
   }
@@ -96,7 +97,16 @@ function checkWin() {
         showWinPopup();
     }
 }
-console.log(checkWin)
+
+function showLosePopup () {
+    const losePopup = document.getElementById("lose-popup");
+    losePopup.style.display = "flex";
+}
+function timerTimeout() {
+    showLosePopup();
+}
+
+
 function showWinPopup() {
     const winPopup = document.getElementById("win-popup");
     winPopup.style.display = "flex";
@@ -131,3 +141,9 @@ cards.forEach((card) => {
     })
 })
 
+document.getElementById("try-again-button").addEventListener("click", tryAgain);
+
+function tryAgain() {
+    document.getElementById("lose-popup").style.display = "none";
+    resetGame();
+}
