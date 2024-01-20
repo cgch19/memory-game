@@ -1,5 +1,10 @@
 #  Matching Planets
  ---
+## Getting Started
+Down here is the link to my Project1 Game and all you have to do is click the link!
+https://cgch19.github.io/memory-game/
+
+ ---
 ## Memory Planets
 Memory Matching Planets is a memory game . Players will be able to match the different planets in the solar system.This game will be simplistic which the wire frames will be intentionally kept simple, using basic shapes, lines, and placeholders to represent elements like buttons, text fields, images, and navigation menus.
 
