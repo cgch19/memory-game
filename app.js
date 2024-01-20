@@ -27,6 +27,8 @@ cards.forEach((card) => {
         correctCards[0].classList.remove("clicked");
         correctCards[1].classList.add("checked");
         correctCards[1].classList.remove("clicked");
+        firstSelection = null;
+        secondSelection = null;
       } else {
         const incorrectCards = document.querySelectorAll(".card.clicked");
 
