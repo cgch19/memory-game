@@ -22,3 +22,5 @@ Add logic to check for card matches when two cards are flipped.
  -Simple Animations: Incorporate subtle animations for card flips and matches to make the game more visually appealing.
 
 ![wireframe](memory-wireframe.png)
+
+![wireframe](game.png)
