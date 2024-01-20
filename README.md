@@ -23,8 +23,13 @@ Add logic to check for card matches when two cards are flipped.
 
 ---
 ## Getting Started
-Down here is the link to my Project1 Game and all you have to do is click the link!
+- Method 1: Down here is the link to my Project1 Game and all you have to do is click the link!
 https://cgch19.github.io/memory-game/
+- Method 2: Fork and Clone this to your own account and to your machine. 
+-  Open up with Index.html file and then open html file with Live Link.
+
+
+
 
  ---
 #### Next Steps
