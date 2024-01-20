@@ -26,6 +26,11 @@ Add logic to check for card matches when two cards are flipped.
  -Timer Challenge Mode: Have a timer where players need to match cards within a set time limit, adding an element of urgency and excitement.
  -Simple Animations: Incorporate subtle animations for card flips and matches to make the game more visually appealing.
 
+ ---
+#### Next Steps
+- Create Levels that would challenge the player like a higher grid count.
+- Trying to add different powers like if it gets harder you can unlock a hint.
+
 ![wireframe](memory-wireframe.png)
 
 ![wireframe](game.png)
